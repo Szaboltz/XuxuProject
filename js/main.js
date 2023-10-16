@@ -6,11 +6,11 @@ function NeverNo() {
 
     button.innerHTML = `<div id="op" style="margin: ${randomNumber}px;">
     <button onclick="Yes()" id="sim">Sim</button>
-    <button onclick="NeverNo()" id="nao">Não</button>
+    <button onmouseover="NeverNo()" id="nao">Não</button>
     </div>`
 }
 
 function Yes() {
-    alert("Vou encher o seu cuzinho de porra!")
+    alert("Te amo!")
 }
 
